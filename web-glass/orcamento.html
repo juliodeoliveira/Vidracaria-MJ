@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidraçaria MJ</title>
+
+    <style>
+        footer {
+            display: none;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="./home.html" style="color: white; text-decoration: none;">
+            <h1 id="main-title">Vidraçaria MJ</h1>
+        </a>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="Emdestaque.html">Em destaque</a>
+        <a href="contato.html">Contato</a>
+        <a href="orcamento.html">Orçamento</a>
+    </nav>
+                               
+
+  <h2>Faça seu orçamento conosco:</h2>
+
+  <form action="processar_formulario.php" method="post">
+    <div class="name">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+    </div>
+
+    <div class="msg">
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+    </div>
+
+    <div class="send">
+        <button type="submit">Enviar</button>
+    </div>
+  </form>
+  
+  
+  
+  <p>Ou faça contato com um de nossos vendedores, nos canais de atendimento:</p>
+  
+  <h2>Tente um de nossos meios de comunicação:</h2>
+  <!-- TENTA COLOCAR O ICONE DO ZAP, PRA CLICAR E IR PRO SITE DO ZAP NAO CONSEGUI - MIQUEIAS -->
+
+  <div class="links">
+    <a class="comunication" href="https://www.facebook.com/sua_pagina" target="_blank">
+        <img src="./_imagens/fakebook.png" alt="Facebook">
+        Facebook &#x1F517;
+    </a>
+    <a class="comunication" href="https://api.whatsapp.com/send?phone=550000000000" target="_blank">
+        <img src="./_imagens/whatsapp.png" alt="Whatsapp">
+        WhatsApp &#x1F517;
+    </a>
+    <a class="comunication" href="https://www.instagram.com/" target="_blank">
+        <img src="./_imagens/instagram.png" alt="">
+        Instagram &#x1F517;
+    </a>
+    <a class="comunication" href="https://twitter.com/seu_perfil" target="_blank">
+        <img src="./_imagens/twitter.png" alt="">
+        Twitter &#x1F517;
+    </a>
+</div>
+
+   
+    <footer>
+        <p>&copy; 2023 Vidraçaria MJ. </p>
+    </footer> 
+</body>
+</html>

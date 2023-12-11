@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Vidraçaria MJ</title>
+    
+    <style>
+        footer {
+            display: none;
+        }
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <header>
+        <a href="./home.html" style="color: white; text-decoration: none;">
+            <h1 id="main-title">Vidraçaria MJ</h1>
+        </a>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="Emdestaque.html">Em destaque</a>
+        <a href="contato.html">Contato</a>
+        <a href="orcamento.html">Orçamento</a>
+    </nav>
+
+    <!-- <ul type="square">
+        <li><a href="Orcamento.html">Orçamento </a> </li> -->
+
+    <section id="home">
+        <h2>Página incial da Vidraçaria MJ</h2>
+        <p>Sua melhor escolha para produtos de vidro de alta qualidade.</p>
+
+        <div class="card">
+            <img class="card-img-top" id="enterprise" src="./_imagens/empresa(cute.jpeg" alt="Imagem de capa do card">
+            <img class="card-img-top" id="car" src="./_imagens/carro.jpeg" alt="Imagem de capa do card">
+            <img class="card-img-top" id="family" src="./_imagens/familiavidros(cuted).png" alt="Imagem de capa do card">
+        </div>
+
+        
+        <div id="main-text">
+
+            <div class="text-body">
+                <h2>Sobre nós:</h2>
+                    <p class="text">
+                    Com mais de 20 anos de história, a Vidraçaria MJ é uma empresa construída através de valores sólidos e com a premissa de entregar a durabilidade, estética e funcionalidade em seus projetos.
+            
+                    Buscamos sempre pensar nos mínimos detalhes para a entrega de um acabamento impecável, garantindo a durabilidade, qualidade e a segurança de cada projeto executado. Nossos produtos são pensados, projetados e aplicados dentro das normas ABNT de segurança.
+            
+                    Além da excelência em nossos produtos, o compromisso com a satisfação do cliente é uma marca registrada da nossa empresa.
+            
+                    Valorizamos o atendimento próximo e dedicado, entendendo as necessidades individuais de cada cliente, auxiliando-os em todas as etapas do projeto e acompanhando de perto todos os detalhes da obra.
+            
+                    Pensando em estar cada vez mais próximos de nossos clientes, em 2021, consolidamos uma filial em Campo Verde - MT, representando um grande marco em nossa história.</p>
+                </div>
+        </div>
+    </section>
+
+    <section id="compras">
+        <h2>Compras Realizadas</h2>
+        <p>Aqui estão algumas imagens e relatos de compras já realizadas pelos nossos clientes:</p>
+        
+        
+        <!-- 18rem talvez seja uma boa medida -->
+        
+        <div class="body">
+            <div class="card-body" id="box" style="width: 18rem">
+                <img src="./_imagens/box1.png" alt="Imagem de capa do card">
+                <p class="texto">Marley: "Estou muito satisfeito com a qualidade dos produtos. Recomendo!"</p>
+            </div>
+            
+            <div class="card-body" id="window" style="width: 18rem;">
+                <img src="./_imagens/box2.png" alt="Imagem de capa do card">
+                <p class="texto">Tatyane: "A melhor Vidraçaria da cidade!"</p>
+            </div>
+            <div class="card-body" id="door" style="width: 18rem;">
+                <img  src="./_imagens/porta1.png" alt="Imagem de capa do card">
+                <p class="texto">Matheus: "Fizeram o serviço e limparam tudo, Nota 10! indico sempre!"</p>
+            </div>
+        </div>
+ <!--
+        <div>
+            <tr>
+                <td><img  width="300" height="150" src='./_imagens/box1.png'/></td>
+                <td><img  width="300" height="150" src='./_imagens/box2.png'/></td>
+                <td><img  width="300" height="150" src='./_imagens/porta1.png'/></td>
+
+                <p>Marley: "Estou muito satisfeito com a qualidade dos produtos. Recomendo!"</p>
+                <p>Tatyane: "A melhor Vidraçaria da cidade!"</p>
+                <p>Matheus: "Fizeram o serviço e ainda limparam tudo, Nota 10! indico sempre!"</p>
+            </tr>
+        </div>
+        
+        <div>
+            <img src="imagem2.jpg" alt="Compra 2">
+            <p>Cliente B: "O atendimento foi excelente, e a entrega foi rápida. Voltarei a comprar!"</p>
+        </div>
+
+         Adicione mais divs se achar necessário rssrsr -->
+
+    </section>
+
+
+    
+    <footer>
+        <p>&copy; 2023 Vidraçaria MJ. </p>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        
+        // Fotos do início
+        ScrollReveal({ reset: true }).reveal("#enterprise", {delay: 300});
+        ScrollReveal({ reset: true }).reveal("#car", {delay: 600});
+        ScrollReveal({ reset: true }).reveal("#family", {delay: 200});
+
+        //Fotos do final
+        ScrollReveal({ reset: true }).reveal("#box", {delay: 500});
+        ScrollReveal({ reset: true }).reveal("#window", {delay: 500});
+        ScrollReveal({ reset: true }).reveal("#door", {delay: 500});
+
+        ScrollReveal().reveal('.texto', {
+                origin: 'right', 
+                distance: '70px',
+                duration: 1000, 
+                delay: 500, 
+            });
+        
+
+    </script>
+</body>
+</html>

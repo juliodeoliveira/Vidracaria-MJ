@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidraçaria MJ</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidraçaria MJ</title>
+    <style>
+        footer {
+            display: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="./home.html" style="color: white; text-decoration: none;">
+            <h1 id="main-title">Vidraçaria MJ</h1>
+        </a>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="Emdestaque.html">Em destaque</a>
+        <a href="contato.html">Contato</a>
+        <a href="orcamento.html">Orçamento</a>
+    </nav>
+
+    <section id="home">
+        <h2>Em destaque na Vidraçaria MJ</h2>
+        <p>Sua melhor escolha para produtos de vidro de alta qualidade, Confira alguns de nossos Produtos</p>
+
+    </section>
+
+    <section id="Em destaque">
+        
+        <div id="main-photos" style="width: 30rem;">
+            <div class="fixed-glass">
+                <img src="./_imagens/fixo1.png" alt="Imagem de capa do card">
+                <p>Vidro fixo</p>
+            </div>
+        
+            <div style="margin-left: 40px;" class="spinning-door">        
+                <img src="./_imagens/porta2.jpg.png" alt="Imagem de capa do card">
+                <p>Porta de girar</p>
+            </div>
+
+            <div class="fixed-window">
+                <img src="./_imagens/janela3.jpg" alt="Imagem de capa do card">
+                <p>"Janela com fixo"</p>
+            </div>
+
+                
+            <div class="body-guard">
+                <img src="./_imagens/guardacorpo.jpg" alt="Imagem de capa do card">
+                <p>"Guarda-corpo"</p>
+            </div>
+
+        </div>
+    </section>
+
+        </div>
+          <section id="contato">
+            <a href="./orcamento.html">
+                <h2>Entre em Contato</h2>
+            </a>
+            <p>Estamos à disposição para esclarecer suas dúvidas.:</p>
+            <p>Email: contato@vidracariaMJ.com</p>
+            <p>Telefone: 9999-9999</p>
+        </section>
+    
+        <footer>
+            <p>&copy; 2023 Vidraçaria MJ. </p>
+        </footer> 
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal().reveal('.fixed-glass', {
+                origin: 'left', 
+                distance: '50px',
+                duration: 1000, 
+                delay: 200, 
+            });
+
+            ScrollReveal().reveal('.spinning-door', {
+                origin: 'right', 
+                distance: '60px',
+                duration: 1000, 
+                delay: 400, 
+            });
+
+            ScrollReveal().reveal('.fixed-window', {
+                origin: 'left', 
+                distance: '70px',
+                duration: 1000, 
+                delay: 600, 
+            });
+
+            ScrollReveal().reveal('.body-guard', {
+                origin: 'left', 
+                distance: '80px',
+                duration: 1000, 
+                delay: 800, 
+            });
+        </script>
+            
+</body>
+</html>
+

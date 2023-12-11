@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+#main-title {
+    font-family: 'Great vibe', cursive;
+    font-size: 5em;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.card-img-top {
+    padding: 10px;
+}
+
+
+p, .comunication {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.links {
+    margin-bottom: 90px;
+    border: 2px solid black;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 20px;
+}
+
+.links > a > img {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.links > a {
+    color: black;
+    text-decoration: none;
+}
+
+.text-body {
+    width: 75vw;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: -5px 0px 15px;
+}
+
+.text-body h2 {
+    margin: 40px;
+}
+
+.text-body :hover {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition-duration: 800ms;
+}
+
+.card-body {
+    display: flex;
+    margin-left: 100px;  
+    margin: auto; 
+    overflow-wrap: break-word;  
+}
+
+
+.card-body > img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+.card-body :hover {
+    background-color: rgba(128, 128, 128, 0.233);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    transition-duration: 800ms;
+}
+.card-body > p {
+    background-color: rgba(128, 128, 128, 0.233);
+    padding: 30px;
+    margin-left: -20px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+
+
+#contato > a {
+    text-decoration: none;
+    color: black;
+}
+
+#main-photos {
+    margin: auto;
+    font-family: 'Whisper', cursive;
+    font-size: 3em;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;   
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    justify-content: center;
+}
+
+nav a {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    transition-duration: 0.5s;
+    background-color: #797979;
+}
+
+section {
+    padding: 20px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+.msg, .name, .send {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin-top: 5px;
+    width: 150px;
+    height: 30px;
+    background-color: #333;
+    color: white;
+    border-radius: 20px;
+    border: 0px solid white;
+}
+
